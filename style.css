@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dd4b8d14-8fa7-4cf8-b24c-0f78030193a8/daz6b3o-5c40a5ba-c0be-4103-94a9-f4558c56180d.png/v1/fill/w_1024,h_576,q_80,strp/desktop_wallpaper___cristiano_ronaldo_by_enihal_daz6b3o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kZDRiOGQxNC04ZmE3LTRjZjgtYjI0Yy0wZjc4MDMwMTkzYThcL2RhejZiM28tNWM0MGE1YmEtYzBiZS00MTAzLTk0YTktZjQ1NThjNTYxODBkLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.1y0qpkkHFpCBu9jhh6jdqVhDXvUQkOnSH-WFeXpNsEo') no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+}
